@@ -9,7 +9,7 @@ document.getElementById('add').addEventListener('click', () => {
     row.insertCell(1).innerHTML = document.getElementById('full-name').value;
     row.insertCell(2).innerHTML = document.getElementById('age').value;
     row.insertCell(3).innerHTML = document.getElementById('skill-level').value;
-     let actions = row.insertCell(4);
+    //let actions = row.insertCell(4);
      actions.appendChild('');
     document.getElementById('new-task').value = '';
 });
