@@ -11,7 +11,7 @@ document.getElementById('add').addEventListener('click', () => {
     row.insertCell(3).innerHTML = document.getElementById('skill-level').value;
     let actions = row.insertCell(4);
     actions.appendChild(createDeleteButton(id++));
-     document.getElementById('add').value = '';
+    document.getElementById('add').value = '';
 });
 
 function createDeleteButton(id) {
