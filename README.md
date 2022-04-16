@@ -1,2 +1,2 @@
 # Week10
-Intro to DOM manipulation assignement
+Intro to DOM manipulation assignment
