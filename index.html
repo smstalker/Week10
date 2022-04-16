@@ -9,9 +9,17 @@
 </head>
 <body>
     <br>
+    <div class="jumbotron jumbotron-fluid" style="background-color: #bee5eb">
+        <div class="container">
+        <h1 class = "text-center display-2">Port Charlotte Pickleball Association</h1>
+        <h4 class="text-center display-4">Got Dink?</h4>
+        <img src="images\pickleball.jpg" class="mx-auto d-block">
+      </div>
+    </div>
+    <br>
     <div class="card">
         <h3 class="text-center display-3">Register Here</h3>
-        <div class="card-body justify-content-center">
+        <div class="card-body">
             <div class="row">
                 <div class="col-sm">
                     <div class="form-group">
@@ -25,12 +33,16 @@
                         <input type="number" min= 18 class="form control" id="age" placeholder="Age">
                     </div> 
                 </div>
-            
-            <div class="row">
                 <div class="col-sm">
                     <div class="form-group">
                         <label for="skill-level">Skill Level</label>
-                        <input type="text" class="form control" id="skill-level" placeholder="Skill Level">
+                        <select id="skill-level" name="skill-level">
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                            <option value="master">Master</option>
+                          </select>
+                        <!-- <input type="text" class="form control" id="skill-level" placeholder="Skill Level"> -->
                     </div>
                 </div>
             </div>
@@ -38,14 +50,14 @@
             <div class= "text-center">
             <button id="add" class="btn btn-info form control">Submit</button>
         </div>
-        
     </div>
+    
    </div>
     <div class="container">
-        <h2 class="text-center display-3"> Tournament Sign Up</h2>
+        <h2 class="text-center display-3"> Players Roster </h2>
         <table id="registrationTable" class="table table-md table-bordered table-striped table-info table-hover justify-content-center">
             <tr>
-                <th>Date</th>
+                <th>Date Joined</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Skill Level</th>
